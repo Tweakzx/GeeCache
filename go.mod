@@ -1,4 +1,4 @@
-module example
+module geecache-example
 
 go 1.17
 
