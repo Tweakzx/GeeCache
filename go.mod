@@ -1,7 +1,8 @@
-module geecache-example
+module geecache
 
 go 1.17
 
-replace geecache => ./geecache
-
-require geecache v0.0.0
+require (
+	github.com/gogo/protobuf v1.3.2
+	google.golang.org/protobuf v1.28.1
+)
